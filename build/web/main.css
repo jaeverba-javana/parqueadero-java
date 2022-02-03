@@ -1,0 +1,59 @@
+:root {
+    --Louis-george-caf: "louis george cafe";
+}
+
+*, *:after, *:before {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    font-family: din-round,sans-serif;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+/*@font-face {
+    font-family: var(--Louis-george-caf);
+    font-weight: bold;
+    src: url(statics/louis_george_caf/Louis George Cafe Bold.ttf)
+}*/
+@font-face {
+    font-family: var(--Louis-george-caf);
+    font-weight: normal;
+    src: url(http://localhost:8081/cienciex/statics/fonts/Nunito/XRXX3I6Li01BKofIMNaDRs4.woff2);
+}
+/*@font-face {
+    font-family: var(--Louis-george-caf);
+    font-weight: light;
+    src: url(statics/louis_george_caf/Louis George Cafe Light Italic.ttf)
+}*/
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+div {
+    display: block;
+}
+
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+header > h1 {
+    font-family: var(--Louis-george-caf);
+    color: white;
+    font-weight: normal;
+}
+
+#contenedor_principal {
+    flex-grow: 1;
+    background-color: red;
+}
