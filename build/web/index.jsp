@@ -13,8 +13,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link type="text/css" rel="stylesheet" href="main.css">
-        <link type="text/css" rel="stylesheet" href="statics/css/all.min.css">
-        <link type="text/css" rel="stylesheet" href="statics/css/fonts/Nunito.css">
+        <!--link type="text/css" rel="stylesheet" href="statics/css/all.min.css"-->
+        <!--link type="text/css" rel="stylesheet" href="statics/css/fonts/Nunito.css"-->
     </head>
     
     <body>
@@ -25,11 +25,17 @@
         </header>
 
         <div id="contenedor_principal">
-
+            <aside>
+                
+            </aside>
+            
+            <main>
+                
+            </main>
         </div>
         
-        <script src="statics/js/libs/jquery.js"></script>
-        <script src="statics/js/libs/vue.js"></script>
+        <script src="statics/js/libs/jquery/jquery.js"></script>
+        <script src="statics/js/libs/vue/vue.js"></script>
         <script src="statics/js/main.js"></script>
     </body>
 </html>
