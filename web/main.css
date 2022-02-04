@@ -57,6 +57,7 @@ header > h1 {
 #contenedor_principal {
     flex-grow: 1;
     background-color: red;
+    display: flex;
 }
 
 aside {
@@ -69,5 +70,5 @@ aside {
 }
 
 main {
-    
+    flex-grow: 1
 }

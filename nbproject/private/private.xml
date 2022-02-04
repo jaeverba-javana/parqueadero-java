@@ -4,10 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/J:/Programacion/Java/proyectos/parqueadero/web/index.jsp</file>
+            <file>file:/J:/Programacion/Java/proyectos/parqueadero/src/java/modelo/AutoDao.java</file>
             <file>file:/J:/Programacion/Java/proyectos/parqueadero/web/statics/js/main.js</file>
             <file>file:/J:/Programacion/Java/proyectos/parqueadero/web/statics/css/all.css</file>
+            <file>file:/J:/Programacion/Java/proyectos/parqueadero/src/java/logic/db/connect/DbConnection.java</file>
             <file>file:/J:/Programacion/Java/proyectos/parqueadero/web/main.css</file>
-            <file>file:/J:/Programacion/Java/proyectos/parqueadero/web/statics/css/fonts/Nunito.css</file>
         </group>
     </open-files>
 </project-private>

@@ -1,3 +1,5 @@
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.Connection"%>
 <%-- 
     Document   : index
     Created on : 2/02/2022, 11:03:45 p. m.
@@ -5,6 +7,18 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%!
+    String mensaje = "Se ha podido";
+%>
+<%
+    Connection conn;
+    try {
+         Class.forName("com.mysql.cj.jdbc.Driver");
+         conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/parqueadero", "root", "135689795623Javana@");
+    } catch (Exception e) {
+        mensaje = "no se ha podido";
+    }
+%>
 <!DOCTYPE html>
 <html lang="es" translate="no">
     <head>
@@ -30,7 +44,7 @@
             </aside>
             
             <main>
-                
+                Mensaje: <%=mensaje%>
             </main>
         </div>
         

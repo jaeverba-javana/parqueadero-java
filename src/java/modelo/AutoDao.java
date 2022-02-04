@@ -20,5 +20,6 @@ public class AutoDao implements AutoMan{
         } catch (SQLException ex) {
             Logger.getLogger(AutoDao.class.getName()).log(Level.SEVERE, null, ex);
         }
+        return 4;
     }
 }
